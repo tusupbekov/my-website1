@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Разработка сайтов под ключ</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            background: linear-gradient(45deg, #ff0080, #ff8c00, #ff0080);
+            color: white;
+            text-align: center;
+            animation: gradientBG 10s infinite linear;
+        }
+        @keyframes gradientBG {
+            0% { background-position: 0% 50%; }
+            50% { background-position: 100% 50%; }
+            100% { background-position: 0% 50%; }
+        }
+        header {
+            padding: 40px;
+            font-size: 32px;
+            font-weight: bold;
+        }
+        .container {
+            max-width: 1000px;
+            margin: auto;
+            padding: 20px;
+        }
+        .section {
+            margin: 30px 0;
+            padding: 40px;
+            background: rgba(255, 255, 255, 0.2);
+            border-radius: 15px;
+            box-shadow: 0 5px 15px rgba(0, 0, 0, 0.3);
+        }
+        .button {
+            display: inline-block;
+            background: #ffcc00;
+            color: black;
+            padding: 15px 30px;
+            text-decoration: none;
+            font-weight: bold;
+            border-radius: 10px;
+            transition: 0.3s;
+        }
+        .button:hover {
+            background: #ffea00;
+        }
+        .portfolio img {
+            width: 100%;
+            max-width: 400px;
+            margin: 10px;
+            border-radius: 10px;
+        }
+        footer {
+            padding: 20px;
+            background: rgba(0, 0, 0, 0.5);
+        }
+    </style>
+</head>
+<body>
+    <header>Профессиональная разработка сайтов</header>
+    <div class="container">
+        <section class="section">
+            <h2>Что мы предлагаем?</h2>
+            <p>Создание продающих сайтов, лендингов и интернет-магазинов.</p>
+            <a href="#contacts" class="button">Заказать сайт</a>
+        </section>
+        <section class="section portfolio">
+            <h2>Наши работы</h2>
+            <img src="https://via.placeholder.com/400" alt="Пример работы">
+            <img src="https://via.placeholder.com/400" alt="Пример работы">
+        </section>
+        <section class="section" id="contacts">
+            <h2>Свяжитесь с нами</h2>
+            <p>Телефон: +7 XXX XXX XX XX</p>
+            <p>Email: example@mail.com</p>
+            <a href="tel:+7XXXXXXXXXX" class="button">Позвонить</a>
+        </section>
+    </div>
+    <footer>
+        &copy; 2025 Разработка сайтов | Все права защищены
+    </footer>
+</body>
+</html>
